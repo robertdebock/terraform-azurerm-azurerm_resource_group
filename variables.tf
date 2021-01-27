@@ -9,5 +9,5 @@ variable "location" {
 
 variable "tags" {
   description = "(Optional) A key-value map of tags for the resource group."
-  default = ""
+  default = {}
 }
