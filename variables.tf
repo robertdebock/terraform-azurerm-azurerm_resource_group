@@ -4,10 +4,10 @@ variable "name" {
 
 variable "location" {
   description = "(Optional) A string for the location of the resource group."
-  default     = "west europe"
+  default     = "westeurope"
 }
 
 variable "tags" {
   description = "(Optional) A key-value map of tags for the resource group."
-  default = {}
+  default     = {}
 }
